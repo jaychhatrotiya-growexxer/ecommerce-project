@@ -1,6 +1,9 @@
 function login(username, password) {
-//TO DO
+/// Validate credentials
 }
 function logout() {
 console.log("Logging out");
+}
+function validatePassword(password) {
+return password.length >= 8;
 }
